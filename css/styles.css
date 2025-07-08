@@ -1,34 +1,43 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+}
 
-body{
+body {
     background-color: #244855;
 }
 
-.navigation-bar{
-    background-color:#B3B4BD;
+.navigation-bar {
+    background-color: #B3B4BD;
     text-align: center;
-    border-radius: 5px;
-    size: 120%;
-    }
-
-
-.navigation-bar a {
-
-    color:rgb(55, 8, 131);
-    text-decoration: none;
-    font-size: 30px;
-    font-family: "Libertinus Math", sans-serif, arial;
-    padding: 10px;    
+    size: 150%;
 }
 
 
-.go-back{
+.navigation-bar a {
+    color: rgb(55, 8, 131);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Libertinus Math", sans-serif, arial;
+    margin: 7px; 
+}
+
+
+.go-back {
     width: fit-content;
     margin: 0 auto;
 }
 
-.go-back a{
+.go-back a {
     background-color: #B3B4BD;
     font-family: "Libertinus Math", sans-serif, arial;
     text-decoration: none;
     border-radius: 10%;
+}
+
+footer{
+    text-align: center;
+    background-color: #B3B4BD;
+
 }
